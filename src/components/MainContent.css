@@ -1,0 +1,15 @@
+:root{
+    --bg-color:#e7e7e7;
+}
+body{
+    background-color: var(--bg-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+}

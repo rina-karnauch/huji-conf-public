@@ -1,0 +1,10 @@
+
+:root{
+    --switch-text:#323842;
+}
+.switch-text{
+    font-size:14px;
+    width:100px;
+    text-align:center;
+    color: var(--switch-text);
+}

@@ -1,0 +1,72 @@
+
+:root {
+    --confession-table-bg: #f5f5f5;
+    --confession-table-border: #dbdbdb;
+    --confession-table-title: #4a5465;
+}
+
+.content-table {
+    background-color: var(--confession-table-bg);
+    padding: 10px;
+    border: 1px solid var(--confession-table-border);
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.confession-box-title {
+    color: var(--confession-table-title);
+    text-align: center;
+}
+
+.title {
+    margin: 13px 5px 5px;
+    position: relative;
+    bottom: 3px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.modal {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--confession-table-bg);
+    border: 1px solid var(--confession-table-border);
+    border-radius: 10px;
+}
+
+.header {
+    font-size:21px;
+    padding:5px;
+    border-bottom:1px solid #68b370;
+}
+
+.content{
+    padding-top:10px;
+}
+.modal.actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 7px 10px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: var(--confession-table-bg);
+    border-radius: 50px;
+    border: 1px solid var(--confession-table-border);
+}
+
+.popup-content {
+    color: var(--confession-table-title);
+    background-color: transparent !important;
+    border: none !important;
+
+}

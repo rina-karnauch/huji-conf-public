@@ -1,0 +1,22 @@
+
+:root {
+    --confession-table-title: #4a5465;
+    --confession-table-bg: #f5f5f5;
+}
+
+.list-item-title {
+    color: var(--confession-table-title);
+    margin: 10px 10px 10px 10px;
+}
+
+.emergency-link a {
+    margin: 5px;
+    color: #89939d;
+    text-decoration: none;
+}
+
+
+.emergency-link a:hover {
+    transition: 0.3s;
+    border-bottom: 3px solid var(--link-color);
+}
