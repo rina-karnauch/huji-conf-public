@@ -55,15 +55,9 @@ const ConfessionsTable = (props) => {
             ID: ID
         }
 
-        let formData = constructFormData(confessionJSON);
+        // nOT SHOwing thIS POSt reQUEST
 
-        // into google forms
-        fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSfUCFOq0hFNXYxrPhRQSWDM-myPla6NMqpbrfdLX4S5TIs6lg/formResponse",
-            {
-                body: formData,
-                method: 'post',
-                mode: 'no-cors'
-            });
+        let formData = constructFormData(confessionJSON);
 
         // clearing data
         numberSwitchRef.current.clear();
